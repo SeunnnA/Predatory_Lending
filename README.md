@@ -77,15 +77,15 @@ We will compare performance using:
 
 ---
 
-## 🚧 Project Timeline
+## Project Timeline
 
 | Date       | Milestone                                      |
 |------------|------------------------------------------------|
-| March 25   | ✅ Data collection & preprocessing complete     |
-| April 5    | ✅ Initial classification models trained        |
-| April 15   | 🔄 Model evaluation & refinement in progress    |
-| April 25   | ⏳ Prototype tool + final report draft          |
-| May 1      | 🎤 Final in-class presentation                  |
+| March 25   | Data collection & preprocessing complete     |
+| April 5    | Initial classification models trained        |
+| April 15   | Model evaluation & refinement in progress    |
+| April 25   | Prototype tool + final report draft          |
+| May 1      | Final in-class presentation                  |
 
 ---
 
