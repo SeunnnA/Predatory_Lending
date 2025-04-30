@@ -94,4 +94,23 @@ We will compare performance using:
 - Trained and evaluated ML and transformer-based classifiers
 - Jupyter notebooks with exploratory and experimental results
 - Final report + presentation
+- 
+
+
+## Run Instructions
+
+To reproduce this project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Predatory_Lending.git
+   cd Predatory_Lending
+   python -m venv env     #create an activate virtual env
+   source env/bin/activate  # On Windows use: .\env\Scripts\activate
+   pip install -r scripts/requirements.txt   #install dependencies
+   jupyter lab   #run the notebooks
+   ```
+   
+
+   
 
