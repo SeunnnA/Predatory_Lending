@@ -1,8 +1,35 @@
+# Ignore virtual environments
 env/
+.venv/
+
+# Ignore system files
+.DS_Store
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
 __pycache__/
 *.pyc
+
+# Ignore model artifacts and vectorizers
+*.joblib
+*.pkl
+
+# Ignore large BERT checkpoint outputs
+notebooks/results/
+results/
+logs/
+checkpoints/
+
+# Ignore raw and large processed data (can manually upload a small sample)
 data/raw/
-!data/processed/
-!data/processed/*.csv
-*.json
-*.txt
+data/processed/full_dataset*.csv
+
+# Ignore Reddit scrape JSONs
+reddit_posts.json
+
+# Ignore any log or temp files
+*.log
+*.tmp
+*.bak
