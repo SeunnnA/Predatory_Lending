@@ -62,7 +62,6 @@ We will compare performance using:
 
 - **Precision**, **Recall**, and **F1-score** on a labeled test set
 - Real-world case study comparisons
-- Optional: comparison with simple rule-based keyword flagging
 
 ---
 
