@@ -27,13 +27,15 @@ To reproduce this project locally:
    
    Then run the notebook DS340_Predatory_Lending_notebook.ipynb
 
-4. Colab Alternative
+3. Colab Alternative
 
    Upload the notebook to Google Colab
 
    Manually upload required files (CSV + models) using the file browser
    
    Run cells as usual (no GPU required unless using BERT)
+
+4. REPORT IS IN GITHUB
 
 ---
 
