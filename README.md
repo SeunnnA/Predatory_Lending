@@ -35,7 +35,7 @@ To reproduce this project locally:
    
    Run cells as usual (no GPU required unless using BERT)
 
-4. REPORT IS IN GITHUB
+4. Report is in Github listed as DS340 Final Project Report.docx
 
 ---
 
