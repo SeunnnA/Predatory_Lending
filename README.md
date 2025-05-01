@@ -25,7 +25,7 @@ To reproduce this project locally:
    
    Upload the file full_dataset_with_cleaned.csv to data/processed/
    
-   Then run the notebook DS340_seun_notebook.ipynb
+   Then run the notebook DS340_Predatory_Lending_notebook.ipynb
 
 4. Colab Alternative
 
