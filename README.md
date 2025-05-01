@@ -105,12 +105,21 @@ To reproduce this project locally:
    ```bash
    git clone https://github.com/YOUR_USERNAME/Predatory_Lending.git
    cd Predatory_Lending
-   python -m venv env     #create an activate virtual env
+   python -m venv env     # create and activate virtual env
    source env/bin/activate  # On Windows use: .\env\Scripts\activate
-   pip install -r scripts/requirements.txt   #install dependencies
-   jupyter lab   #run the notebooks
+   pip install -r scripts/requirements.txt   # install dependencies
+   jupyter lab   # run the notebooks
    ```
-   
+2. Note: The full dataset CSV (~47MB) is not pushed to GitHub due to size. To run evaluation directly:
 
-   
+Upload the file full_dataset_with_cleaned.csv to data/processed/
 
+Then run the notebook DS340_seun_notebook.ipynb
+
+3. Colab Alternative
+
+Upload the notebook to Google Colab
+
+Manually upload required files (CSV + models) using the file browser
+
+Run cells as usual (no GPU required unless using BERT)
