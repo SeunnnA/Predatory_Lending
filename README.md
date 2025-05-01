@@ -19,7 +19,7 @@ To reproduce this project locally:
    pip install -r scripts/requirements.txt   # install dependencies
    jupyter lab   # run the notebooks
    ```
-2. Note: The full dataset CSV (~47MB) is not pushed to GitHub due to size. Larger files like the full dataset and trained models can be accessed here: [https://drive.google.com/drive/folders/1te6Bwvvu3_KCZZfY4cHUto2I7NCCNiJ4?usp=sharing]
+2. Note: The full dataset CSV (~47MB) is not pushed to GitHub due to size. Larger files like the full dataset and trained models can be accessed here: https://drive.google.com/drive/folders/1te6Bwvvu3_KCZZfY4cHUto2I7NCCNiJ4?usp=sharing
    
    To run evaluation directly:
    
