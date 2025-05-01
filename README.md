@@ -6,6 +6,37 @@ This project leverages Natural Language Processing (NLP) to detect predatory lan
 
 ---
 
+## Run Instructions
+
+To reproduce this project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Predatory_Lending.git
+   cd Predatory_Lending
+   python -m venv env     # create and activate virtual env
+   source env/bin/activate  # On Windows use: .\env\Scripts\activate
+   pip install -r scripts/requirements.txt   # install dependencies
+   jupyter lab   # run the notebooks
+   ```
+2. Note: The full dataset CSV (~47MB) is not pushed to GitHub due to size. Larger files like the full dataset and trained models can be accessed here: [https://drive.google.com/drive/folders/1te6Bwvvu3_KCZZfY4cHUto2I7NCCNiJ4?usp=sharing]
+   
+   To run evaluation directly:
+   
+   Upload the file full_dataset_with_cleaned.csv to data/processed/
+   
+   Then run the notebook DS340_seun_notebook.ipynb
+
+4. Colab Alternative
+
+   Upload the notebook to Google Colab
+
+   Manually upload required files (CSV + models) using the file browser
+   
+   Run cells as usual (no GPU required unless using BERT)
+
+---
+
 ## Context
 
 Predatory lending disproportionately affects low-income and marginalized communities, trapping borrowers in cycles of debt through excessive interest rates, hidden fees, and aggressive repayment structures. Payday loans are a key area of concern.
@@ -97,29 +128,3 @@ We will compare performance using:
 - 
 
 
-## Run Instructions
-
-To reproduce this project locally:
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/Predatory_Lending.git
-   cd Predatory_Lending
-   python -m venv env     # create and activate virtual env
-   source env/bin/activate  # On Windows use: .\env\Scripts\activate
-   pip install -r scripts/requirements.txt   # install dependencies
-   jupyter lab   # run the notebooks
-   ```
-2. Note: The full dataset CSV (~47MB) is not pushed to GitHub due to size. To run evaluation directly:
-
-Upload the file full_dataset_with_cleaned.csv to data/processed/
-
-Then run the notebook DS340_seun_notebook.ipynb
-
-3. Colab Alternative
-
-Upload the notebook to Google Colab
-
-Manually upload required files (CSV + models) using the file browser
-
-Run cells as usual (no GPU required unless using BERT)
